@@ -1,6 +1,6 @@
-# ==============================================================================
+# =====================================================================================================
 #   Network Automation Tool 
-# ==============================================================================
+# =====================================================================================================
 # Language	    	: Python
 # Name		    	: network_automation-v1.3.py
 # Author	    	: Marcelo Ferreira CCIE #65117 - mferreira85@gmail.com
@@ -8,7 +8,8 @@
 # Version	    	: 1.3
 # Update Date       : 11/Jun/2020
 # Objective         : Send Commands and Configurations to HP, Cisco Switches and Wireless Controllers
-# ==============================================================================
+# Thanks to         : Nick Bettison - Part of this code i copied from his code
+# ====================================================================================================
 
 import os, sys ,socket, signal, re, datetime, logging
 import telnetlib
